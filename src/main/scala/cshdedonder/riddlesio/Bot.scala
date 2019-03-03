@@ -2,5 +2,5 @@ package cshdedonder.riddlesio
 
 trait Bot {
 
-  def handleString(string: String): Option[String]
+  def handle(string: String): (Bot, Option[String])
 }
